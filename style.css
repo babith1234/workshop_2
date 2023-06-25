@@ -148,7 +148,7 @@ flex-basis: 60%;
 .container-services{
     display: flex;
 }
-.services .sub-title h1{
+.services .sub-title{
     font-size: 50px;
     font-weight: bold;
 }
