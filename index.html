@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal portfolio website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- --------------header section---------- -->
+  <div class="header">
+    <div class="container">
+      <nav>
+        <h1>Babith</h1>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">SERVICES</a></li>
+          <li><a href="#">PORTFOLIO</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <div class="text">
+          <p>Web Developer</p>
+          <h1>
+            Hi,I'm <span>Babith Poojary</span><br />
+            from India
+          </h1>
+        </div>
+
+        <img src="babith1.jpeg" alt="babith" />
+      </div>
+    </div>
+  </div>
+
+  <!-- -------About section------------- -->
+  <div class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col1">
+          <img src="babith1.jpeg">
+        </div>
+        <div class="col2">
+          <h1 class="sub-title">About me</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut repellendus doloremque adipisci est provident,
+            rem ratione possimus? Cum et pariatur distinctio eaque alias sint, nesciunt, suscipit, quia nam qui
+            molestiae maiores beatae amet fugiat similique!</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links"onclick="opentab('experience')">Experience</p>
+            <p class="tab-links"onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+              <li><span>Web development</span><br>Designing Web/App interfaces</li>
+              <li><span>App development</span><br>Designing Web/App interfaces</li>
+            </ul>
+          </div>
+          <div class="tab-contents"id="experience">
+            <ul>
+              <li><span>Microsoft</span><br>Designing Web/App interfaces</li>
+              <li><span>Google</span><br>Software developer</li>
+              <li><span>Amazon</span><br>Design Egineer</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>Sahyadri college of engineering</span><br>Btech cse</li>
+              <li><span>Xavire college</span><br>Pre university</li>
+              <li><span>st thomas college</span><br>Schooling</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- --------------Services---------------------- -->
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
