@@ -10,14 +10,14 @@
 
 <body>
   <!-- --------------header section---------- -->
-  <div class="header">
+  <div id="header">
     <div class="container">
       <nav>
         <h1>Babith</h1>
         <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">SERVICES</a></li>
+          <li><a href="#header">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
           <li><a href="#">PORTFOLIO</a></li>
           <li><a href="#">CONTACT</a></li>
         </ul>
@@ -26,7 +26,7 @@
         <div class="text">
           <p>Web Developer</p>
           <h1>
-            Hi,I'm <span>Babith Poojary</span><br />
+            Hi,I'm <span>J S NINAD</span><br />
             from India
           </h1>
         </div>
@@ -37,7 +37,8 @@
   </div>
 
   <!-- -------About section------------- -->
-  <div class="about">
+
+  <div id="about">
     <div class="container">
       <div class="row">
         <div class="col1">
@@ -81,22 +82,18 @@
   </div>
   </div>
 
-  <!-- --------------Services---------------------- -->
-  <div class="services">
-    <h1 class="subtitle">My services</h1>
-    <div class="container-services">
-      <div class="service1">
-        <h1>UI/UX</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, libero?</p>
-      </div>
-      <div class="service2">
-        <h1>Web development</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, libero?</p>
-      </div>
-      <div class="service3">
-        <h1>Python</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, libero?</p>
-      </div>
+  <!-- --------------Projects---------------------- -->
+  <div id="projects">
+    <center><h1 class="subtitle">My Projects</h1></center>
+    <br>
+    <br>
+    <div class="slide">
+      <center>
+        <h1 id="id01">Webdev</h1>
+        <button onclick="previousImage()">previous</button>
+        <img src="webdev.jpg" alt="loading" id="myImg" width="50%">
+        <button onclick="nextImage()">next</button>
+      </center>
     </div>
   </div>
   <script src="script.js"></script>
